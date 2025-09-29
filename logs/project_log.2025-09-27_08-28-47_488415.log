@@ -1,0 +1,64 @@
+2025-09-27 08:28:47 | INFO | ✅ Sent message #692: Hello World! This is message #692
+2025-09-27 08:28:50 | INFO | ✅ Sent message #693: Hello World! This is message #693
+2025-09-27 08:28:53 | INFO | ✅ Sent message #694: Hello World! This is message #694
+2025-09-27 08:28:56 | INFO | ✅ Sent message #695: Hello World! This is message #695
+2025-09-27 08:28:59 | INFO | ✅ Sent message #696: Hello World! This is message #696
+2025-09-27 08:29:04 | INFO | ✅ Sent message #697: Hello World! This is message #697
+2025-09-27 08:29:08 | INFO | ✅ Sent message #698: Hello World! This is message #698
+2025-09-27 08:29:11 | INFO | ✅ Sent message #699: Hello World! This is message #699
+2025-09-27 08:29:14 | INFO | ✅ Sent message #700: Hello World! This is message #700
+2025-09-27 08:29:17 | INFO | ✅ Sent message #701: Hello World! This is message #701
+2025-09-27 08:29:20 | INFO | ✅ Sent message #702: Hello World! This is message #702
+2025-09-27 08:29:23 | INFO | ✅ Sent message #703: Hello World! This is message #703
+2025-09-27 08:29:26 | INFO | ✅ Sent message #704: Hello World! This is message #704
+2025-09-27 08:29:29 | INFO | ✅ Sent message #705: Hello World! This is message #705
+2025-09-27 08:29:33 | INFO | ✅ Sent message #706: Hello World! This is message #706
+2025-09-27 08:29:36 | INFO | ✅ Sent message #707: Hello World! This is message #707
+2025-09-27 08:29:41 | INFO | ✅ Sent message #708: Hello World! This is message #708
+2025-09-27 08:29:44 | INFO | ✅ Sent message #709: Hello World! This is message #709
+2025-09-27 08:29:47 | ERROR | [duckdb_emitter] failed to insert into data/simple.duckdb: IO Error: Could not set lock on file "/mnt/c/RaginiWorkArea/StreamingData/USERi_project_6/data/simple.duckdb": Conflicting lock is held in /usr/bin/python3.12 (PID 9346). See also https://duckdb.org/docs/stable/connect/concurrency
+2025-09-27 08:29:47 | INFO | ✅ Sent message #710: Hello World! This is message #710
+2025-09-27 08:29:50 | ERROR | [duckdb_emitter] failed to insert into data/simple.duckdb: IO Error: Could not set lock on file "/mnt/c/RaginiWorkArea/StreamingData/USERi_project_6/data/simple.duckdb": Conflicting lock is held in /usr/bin/python3.12 (PID 9346). See also https://duckdb.org/docs/stable/connect/concurrency
+2025-09-27 08:29:50 | INFO | ✅ Sent message #711: Hello World! This is message #711
+2025-09-27 08:29:53 | INFO | ✅ Sent message #712: Hello World! This is message #712
+2025-09-27 08:29:56 | ERROR | [duckdb_emitter] failed to insert into data/simple.duckdb: IO Error: Could not set lock on file "/mnt/c/RaginiWorkArea/StreamingData/USERi_project_6/data/simple.duckdb": Conflicting lock is held in /usr/bin/python3.12 (PID 9346). See also https://duckdb.org/docs/stable/connect/concurrency
+2025-09-27 08:29:56 | INFO | ✅ Sent message #713: Hello World! This is message #713
+2025-09-27 08:29:59 | INFO | ✅ Sent message #714: Hello World! This is message #714
+2025-09-27 08:30:02 | ERROR | [duckdb_emitter] failed to insert into data/simple.duckdb: IO Error: Could not set lock on file "/mnt/c/RaginiWorkArea/StreamingData/USERi_project_6/data/simple.duckdb": Conflicting lock is held in /usr/bin/python3.12 (PID 9346). See also https://duckdb.org/docs/stable/connect/concurrency
+2025-09-27 08:30:02 | INFO | ✅ Sent message #715: Hello World! This is message #715
+2025-09-27 08:30:06 | INFO | ✅ Sent message #716: Hello World! This is message #716
+2025-09-27 08:30:09 | INFO | ✅ Sent message #717: Hello World! This is message #717
+2025-09-27 08:30:14 | INFO | ✅ Sent message #718: Hello World! This is message #718
+2025-09-27 08:30:17 | INFO | ✅ Sent message #719: Hello World! This is message #719
+2025-09-27 08:30:20 | INFO | ✅ Sent message #720: Hello World! This is message #720
+2025-09-27 08:30:23 | INFO | ✅ Sent message #721: Hello World! This is message #721
+2025-09-27 08:30:26 | INFO | ✅ Sent message #722: Hello World! This is message #722
+2025-09-27 08:30:29 | INFO | ✅ Sent message #723: Hello World! This is message #723
+2025-09-27 08:30:33 | INFO | ✅ Sent message #724: Hello World! This is message #724
+2025-09-27 08:30:36 | INFO | ✅ Sent message #725: Hello World! This is message #725
+2025-09-27 08:30:39 | INFO | ✅ Sent message #726: Hello World! This is message #726
+2025-09-27 08:30:42 | INFO | ✅ Sent message #727: Hello World! This is message #727
+2025-09-27 08:30:45 | INFO | ✅ Sent message #728: Hello World! This is message #728
+2025-09-27 08:30:50 | ERROR | [duckdb_emitter] failed to insert into data/simple.duckdb: IO Error: Could not set lock on file "/mnt/c/RaginiWorkArea/StreamingData/USERi_project_6/data/simple.duckdb": Conflicting lock is held in /usr/bin/python3.12 (PID 9346). See also https://duckdb.org/docs/stable/connect/concurrency
+2025-09-27 08:30:50 | INFO | ✅ Sent message #729: Hello World! This is message #729
+2025-09-27 08:30:53 | INFO | ✅ Sent message #730: Hello World! This is message #730
+2025-09-27 08:30:56 | ERROR | [duckdb_emitter] failed to insert into data/simple.duckdb: IO Error: Could not set lock on file "/mnt/c/RaginiWorkArea/StreamingData/USERi_project_6/data/simple.duckdb": Conflicting lock is held in /usr/bin/python3.12 (PID 9346). See also https://duckdb.org/docs/stable/connect/concurrency
+2025-09-27 08:30:56 | INFO | ✅ Sent message #731: Hello World! This is message #731
+2025-09-27 08:30:59 | INFO | ✅ Sent message #732: Hello World! This is message #732
+2025-09-27 08:31:02 | INFO | ✅ Sent message #733: Hello World! This is message #733
+2025-09-27 08:31:05 | ERROR | [duckdb_emitter] failed to insert into data/simple.duckdb: IO Error: Could not set lock on file "/mnt/c/RaginiWorkArea/StreamingData/USERi_project_6/data/simple.duckdb": Conflicting lock is held in /usr/bin/python3.12 (PID 9346). See also https://duckdb.org/docs/stable/connect/concurrency
+2025-09-27 08:31:05 | INFO | ✅ Sent message #734: Hello World! This is message #734
+2025-09-27 08:31:09 | INFO | ✅ Sent message #735: Hello World! This is message #735
+2025-09-27 08:31:12 | INFO | ✅ Sent message #736: Hello World! This is message #736
+2025-09-27 08:31:15 | INFO | ✅ Sent message #737: Hello World! This is message #737
+2025-09-27 08:31:18 | INFO | ✅ Sent message #738: Hello World! This is message #738
+2025-09-27 08:31:23 | INFO | ✅ Sent message #739: Hello World! This is message #739
+2025-09-27 08:31:26 | INFO | ✅ Sent message #740: Hello World! This is message #740
+2025-09-27 08:31:29 | INFO | ✅ Sent message #741: Hello World! This is message #741
+2025-09-27 08:31:33 | INFO | ✅ Sent message #742: Hello World! This is message #742
+2025-09-27 08:31:36 | INFO | ✅ Sent message #743: Hello World! This is message #743
+2025-09-27 08:31:39 | INFO | ✅ Sent message #744: Hello World! This is message #744
+2025-09-27 08:31:42 | INFO | ✅ Sent message #745: Hello World! This is message #745
+2025-09-27 08:31:45 | INFO | ✅ Sent message #746: Hello World! This is message #746
+2025-09-27 08:31:48 | INFO | ✅ Sent message #747: Hello World! This is message #747
+2025-09-27 08:31:51 | INFO | ✅ Sent message #748: Hello World! This is message #748

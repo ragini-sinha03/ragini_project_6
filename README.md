@@ -105,11 +105,24 @@ python3 -m consumers.ragini_visual_consumer
 - Configurable message intervals and data patterns
 - Includes sentiment analysis and message length statistics
 
-### Ragini's Visual Consumer (`consumers/ragini_visual_consumer.py`)
-- **Real-time matplotlib animations** updating every 2 seconds
-- **Multi-threaded data reading** for continuous processing
-- **4-panel dashboard** with professional styling and color coding
-- **Dynamic statistics** including averages, totals, and trend analysis
+### Ragini's Custom Visual Consumer (`consumers/ragini_visual_consumer.py`)
+
+My custom consumer represents a sophisticated streaming analytics solution that transforms raw message data into actionable business insights through real-time visualization. Built with professional-grade architecture, this consumer demonstrates advanced streaming data processing patterns suitable for enterprise environments.
+
+**Core Capabilities:**
+- **Intelligent Data Ingestion**: Multi-source data reading from local files (JSONL, JSON) and Kafka topics with automatic fallback mechanisms
+- **Real-time Processing**: Background threading ensures continuous data collection without blocking the user interface
+- **Advanced Analytics**: Performs sentiment analysis, message length statistics, author activity tracking, and temporal trend analysis
+- **Dynamic Visualization**: 4-panel matplotlib dashboard with animated charts updating every 2 seconds
+- **Memory Management**: Uses efficient deque data structures with configurable buffer limits (50 messages for time series, 30 for analysis)
+
+**Technical Innovation:**
+- **Multi-threaded Architecture**: Separates data collection from visualization rendering for smooth performance
+- **Cross-platform Compatibility**: Automatic matplotlib backend detection (TkAgg, Qt5Agg, Agg) ensures GUI compatibility across Windows, WSL, and Linux
+- **Error Resilience**: Graceful handling of missing data sources, GUI backend failures, and network connectivity issues
+- **Statistical Computing**: Real-time calculation of rolling averages, distribution analysis, and anomaly detection zones
+
+**Business Value**: The consumer provides immediate insights into data patterns, user engagement trends, and system performance metrics, making it suitable for applications ranging from IoT monitoring to social media analytics and manufacturing quality control.
 
 ## 🛠️ Technical Implementation
 
@@ -390,13 +403,6 @@ This project successfully implements a complete streaming data analytics system 
 - `ragini_visual_consumer.py`: Advanced consumer with matplotlib animations
 - Modular design allows for specialized processing while sharing core functionality
 
-**Key Innovations:**
-- **Background Threading**: Non-blocking data collection enables smooth animations
-- **Multi-source Reading**: Consumers can read from files, databases, and Kafka simultaneously  
-- **Dynamic Backend Selection**: Automatic matplotlib backend detection for maximum compatibility
-- **Statistical Analysis**: Real-time calculation of averages, trends, and distributions
-
-This streaming analytics system demonstrates enterprise-grade patterns suitable for IoT monitoring, social media analytics, financial trading, and manufacturing quality control applications.
 
 ---
 
@@ -410,51 +416,6 @@ Through building this project, key streaming data concepts were mastered:
 - **System Integration**: Combining file-based and distributed streaming approaches
 - **Performance Optimization**: Memory-efficient data structures and threading patterns
 
----
-
-*Project developed by Ragini as part of streaming data analytics coursework, demonstrating professional-grade implementation of real-time data processing and visualization systems.*
-
----
-
-## Explorations
-
-- Did you run the kafka consumer or the live file consumer? Why?
-- Can you use the examples to add a database to your own streaming applications? 
-- What parts are most interesting to you?
-- What parts are most challenging? 
-
----
-
-## Verify DuckDB (Terminal Commands)
-
-Windows PowerShell
-
-```shell
-# count rows
-duckdb .\data\buzz.duckdb "SELECT COUNT(*) FROM streamed_messages;"
-
-# peek
-duckdb .\data\buzz.duckdb "SELECT * FROM streamed_messages ORDER BY id DESC LIMIT 10;"
-
-# live analytics
-duckdb .\data\buzz.duckdb "SELECT category, AVG(sentiment) FROM streamed_messages GROUP BY category ORDER BY AVG(sentiment) DESC;"
-```
-
-macOS/Linux/WSL
-
-```shell
-# count rows
-duckdb data/buzz.duckdb -c "SELECT COUNT(*) FROM streamed_messages;"
-
-# peek
-duckdb data/buzz.duckdb -c "SELECT author, COUNT(*) c FROM streamed_messages GROUP BY author ORDER BY c DESC;"
-
-# live analytics
-duckdb data/buzz.duckdb -c "SELECT category, AVG(sentiment) FROM streamed_messages GROUP BY category ORDER BY AVG(sentiment) DESC;"
-
-```
-
----
 
 ## How To Stop a Continuous Process
 
@@ -481,25 +442,5 @@ git commit -m "your message in quotes"
 git push -u origin main
 ```
 
-## Save Space
 
-To save disk space, you can delete the .venv folder when not actively working on this project.
-You can always recreate it, activate it, and reinstall the necessary packages later.
-Managing Python virtual environments is a valuable skill.
 
-## License
-
-This project is licensed under the MIT License as an example project.
-You are encouraged to fork, copy, explore, and modify the code as you like.
-See the [LICENSE](LICENSE.txt) file for more.
-
-## Recommended VS Code Extensions
-
-- Black Formatter by Microsoft
-- Markdown All in One by Yu Zhang
-- PowerShell by Microsoft (on Windows Machines)
-- Python by Microsoft
-- Python Debugger by Microsoft
-- Ruff by Astral Software (Linter + Formatter)
-- **SQLite Viewer by Florian Klampfer**
-- WSL by Microsoft (on Windows Machines)

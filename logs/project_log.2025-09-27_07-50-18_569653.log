@@ -1,3 +1,0 @@
-2025-09-27 07:50:18 | INFO | {'message': 'I just saw JavaScript! It was weird.', 'author': 'Bob', 'timestamp': '2025-09-27 07:50:18', 'category': 'tech', 'sentiment': 0.94, 'keyword_mentioned': 'JavaScript', 'message_length': 36}
-2025-09-27 07:50:23 | INFO | {'message': 'I just saw recipe! It was exciting.', 'author': 'Charlie', 'timestamp': '2025-09-27 07:50:23', 'category': 'food', 'sentiment': 0.73, 'keyword_mentioned': 'recipe', 'message_length': 35}
-2025-09-27 07:50:28 | INFO | {'message': 'I just tried a story! It was weird.', 'author': 'Charlie', 'timestamp': '2025-09-27 07:50:28', 'category': 'other', 'sentiment': 0.88, 'keyword_mentioned': 'other', 'message_length': 35}
