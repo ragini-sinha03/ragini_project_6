@@ -21,10 +21,6 @@ The system features a **4-panel real-time dashboard** that updates every 2 secon
 3. **Sentiment Trends**: Line chart with sentiment analysis and color-coded zones
 4. **Message Length Analysis**: Histogram with statistical insights
 
-![Ragini's Real-Time Streaming Dashboard](docs/dashboard-screenshot.png)
-*Live dashboard showing real-time streaming analytics with 7,513 total messages processed*
-
-## 🏗️ Architecture
 
 ### Data Pipeline Components
 
@@ -128,11 +124,20 @@ My custom consumer represents a sophisticated streaming analytics solution that 
 
 ### Key Technologies
 - **Python 3.11**: Core programming language
-- **Matplotlib**: Real-time visualization and animation
+- **Matplotlib**: Real-time dashboard with automatic GUI backend selection
 - **Pandas**: Data processing and analysis
 - **SQLite/DuckDB**: Local database storage
 - **Kafka**: Distributed streaming (optional)
-- **Threading**: Background data processing
+- **Threading**: Background processing for smooth animations
+
+### Emitter System
+Multiple output destinations in `utils/emitters/`:
+- **File Emitter**: Saves data to JSONL files
+- **SQLite Emitter**: Stores in relational database
+- **DuckDB Emitter**: Analytics-focused database storage
+- **Kafka Emitter**: Distributed messaging
+
+Each emitter works independently - if one fails, others continue working.
 
 ### Performance Features
 - **Deque-based data structures** for efficient memory management
@@ -150,19 +155,6 @@ The visualization system provides real-time insights including:
 - **Message Characteristics**: Statistical analysis of content patterns
 - **System Health**: Real-time status and performance metrics
 
-## 🔧 Advanced Features
-
-### Multi-Backend Support
-The visual consumer automatically detects and uses the best available matplotlib backend:
-- **TkAgg**: Preferred for WSL/Linux environments
-- **Qt5Agg**: Alternative GUI backend
-- **Agg**: Fallback for headless environments
-
-### Error Resilience
-- Graceful degradation when Kafka is unavailable
-- Automatic reconnection for data sources
-- Comprehensive logging with sanitization
-- User-friendly error messages and suggestions
 
 ## 🎯 Use Cases
 
